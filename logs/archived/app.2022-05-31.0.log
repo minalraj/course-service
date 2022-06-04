@@ -1,0 +1,25 @@
+2022-05-31 18:37:10,345 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] Starting CourseServiceApplication using Java 1.8.0_20 on Minals-MacBook-Pro-2.local with PID 59926 (/Users/minal/LTI/upskill/course-service/target/classes started by minal in /Users/minal/LTI/upskill/course-service)
+2022-05-31 18:37:10,430 DEBUG com.lti.upskill.courseservice.CourseServiceApplication [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-31 18:37:10,459 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 18:37:37,551 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9002 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9002 or configure this application to listen on another port.
+
+2022-05-31 19:01:37,981 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] Starting CourseServiceApplication using Java 1.8.0_20 on Minals-MacBook-Pro-2.local with PID 60646 (/Users/minal/LTI/upskill/course-service/target/classes started by minal in /Users/minal/LTI/upskill/course-service)
+2022-05-31 19:01:37,987 DEBUG com.lti.upskill.courseservice.CourseServiceApplication [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-31 19:01:37,989 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 19:02:06,159 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] Started CourseServiceApplication in 29.363 seconds (JVM running for 31.065)
+2022-05-31 19:13:51,134 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] Starting CourseServiceApplication using Java 1.8.0_20 on Minals-MacBook-Pro-2.local with PID 61174 (/Users/minal/LTI/upskill/course-service/target/classes started by minal in /Users/minal/LTI/upskill/course-service)
+2022-05-31 19:13:51,139 DEBUG com.lti.upskill.courseservice.CourseServiceApplication [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-31 19:13:51,141 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 19:14:03,188 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] Started CourseServiceApplication in 13.162 seconds (JVM running for 14.466)

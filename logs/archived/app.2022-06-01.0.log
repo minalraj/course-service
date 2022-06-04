@@ -1,0 +1,30 @@
+2022-06-01 15:01:33,289 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] Starting CourseServiceApplication using Java 1.8.0_20 on Minals-MacBook-Pro-2.local with PID 78665 (/Users/minal/LTI/upskill/course-service/target/classes started by minal in /Users/minal/LTI/upskill/course-service)
+2022-06-01 15:01:33,323 DEBUG com.lti.upskill.courseservice.CourseServiceApplication [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-01 15:01:33,330 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-06-01 15:01:48,001 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] Started CourseServiceApplication in 15.776 seconds (JVM running for 17.417)
+2022-06-01 15:03:42,352 INFO com.lti.upskill.courseservice.controller.MainController [http-nio-9002-exec-2] Welcome to Upskill
+2022-06-01 15:10:18,502 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] Starting CourseServiceApplication using Java 1.8.0_20 on Minals-MacBook-Pro-2.local with PID 79111 (/Users/minal/LTI/upskill/course-service/target/classes started by minal in /Users/minal/LTI/upskill/course-service)
+2022-06-01 15:10:18,505 DEBUG com.lti.upskill.courseservice.CourseServiceApplication [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-01 15:10:18,511 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-06-01 15:10:35,404 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] Started CourseServiceApplication in 17.957 seconds (JVM running for 19.191)
+2022-06-01 15:10:44,016 INFO com.lti.upskill.courseservice.controller.MainController [http-nio-9002-exec-2] Inside saveCourse of Course Controller
+2022-06-01 15:10:44,018 INFO com.lti.upskill.courseservice.service.CourseService [http-nio-9002-exec-2] Inside saveCourse of CourseService
+2022-06-01 15:12:36,219 INFO com.lti.upskill.courseservice.controller.MainController [http-nio-9002-exec-6] Inside find by course Id of Course Controller
+2022-06-01 15:12:36,228 INFO com.lti.upskill.courseservice.service.CourseService [http-nio-9002-exec-6] Inside findCourseById of CourseService
+2022-06-01 17:50:17,304 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] Starting CourseServiceApplication using Java 1.8.0_20 on Minals-MacBook-Pro-2.local with PID 83208 (/Users/minal/LTI/upskill/course-service/target/classes started by minal in /Users/minal/LTI/upskill/course-service)
+2022-06-01 17:50:17,314 DEBUG com.lti.upskill.courseservice.CourseServiceApplication [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-01 17:50:17,320 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-06-01 17:50:27,895 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] Started CourseServiceApplication in 11.536 seconds (JVM running for 12.73)
+2022-06-01 17:55:08,758 INFO com.lti.upskill.courseservice.controller.MainController [http-nio-9002-exec-4] Inside find by course Id of Course Controller
+2022-06-01 17:55:08,769 INFO com.lti.upskill.courseservice.service.CourseService [http-nio-9002-exec-4] Inside findCourseById of CourseService
+2022-06-01 17:55:13,594 INFO com.lti.upskill.courseservice.controller.MainController [http-nio-9002-exec-6] Inside find by course Id of Course Controller
+2022-06-01 17:55:13,595 INFO com.lti.upskill.courseservice.service.CourseService [http-nio-9002-exec-6] Inside findCourseById of CourseService
+2022-06-01 18:09:18,246 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] Starting CourseServiceApplication using Java 1.8.0_20 on Minals-MacBook-Pro-2.local with PID 83783 (/Users/minal/LTI/upskill/course-service/target/classes started by minal in /Users/minal/LTI/upskill/course-service)
+2022-06-01 18:09:18,249 DEBUG com.lti.upskill.courseservice.CourseServiceApplication [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-01 18:09:18,254 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-06-01 18:09:29,851 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] Started CourseServiceApplication in 12.606 seconds (JVM running for 13.75)
+2022-06-01 18:09:57,114 INFO com.lti.upskill.courseservice.controller.MainController [http-nio-9002-exec-1] Welcome to Upskill
+2022-06-01 18:10:27,323 INFO com.lti.upskill.courseservice.controller.MainController [http-nio-9002-exec-2] Inside saveCourse of Course Controller
+2022-06-01 18:10:27,326 INFO com.lti.upskill.courseservice.service.CourseService [http-nio-9002-exec-2] Inside saveCourse of CourseService
+2022-06-01 18:14:53,071 INFO com.lti.upskill.courseservice.service.CourseService [http-nio-9002-exec-9] Inside findCourseById of CourseService
+2022-06-01 18:14:58,239 INFO com.lti.upskill.courseservice.service.CourseService [http-nio-9002-exec-10] Inside findCourseById of CourseService

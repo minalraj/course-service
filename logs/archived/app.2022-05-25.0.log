@@ -1,0 +1,301 @@
+2022-05-25 13:39:06,834 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Your project setup is incompatible with our requirements due to following reasons:
+
+- Spring Boot [2.5.13] is not compatible with this Spring Cloud release train
+
+
+Action:
+
+Consider applying the following actions:
+
+- Change Spring Boot version to one of the following versions [2.6.x, 2.7.x] .
+You can find the latest Spring Boot versions here [https://spring.io/projects/spring-boot#learn]. 
+If you want to learn more about the Spring Cloud Release train compatibility, you can visit this page [https://spring.io/projects/spring-cloud#overview] and check the [Release Trains] section.
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]
+
+
+2022-05-25 13:54:54,912 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration
+┌─────┐
+|  org.springdoc.ui.SwaggerConfig (field private org.springdoc.ui.SwaggerIndexTransformer org.springdoc.ui.SwaggerConfig.swaggerIndexTransformer)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2022-05-25 13:56:01,455 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.webjars.WebJarAssetLocator.scanForWebJars(WebJarAssetLocator.java:183)
+
+The following method did not exist:
+
+    io.github.classgraph.ClassGraph.acceptPaths([Ljava/lang/String;)Lio/github/classgraph/ClassGraph;
+
+The calling method's class, org.webjars.WebJarAssetLocator, was loaded from the following location:
+
+    jar:file:/Users/minal/.m2/repository/org/webjars/webjars-locator-core/0.50/webjars-locator-core-0.50.jar!/org/webjars/WebJarAssetLocator.class
+
+The called method's class, io.github.classgraph.ClassGraph, is available from the following locations:
+
+    jar:file:/Users/minal/.m2/repository/io/github/classgraph/classgraph/4.8.44/classgraph-4.8.44.jar!/io/github/classgraph/ClassGraph.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    io.github.classgraph.ClassGraph: file:/Users/minal/.m2/repository/io/github/classgraph/classgraph/4.8.44/classgraph-4.8.44.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.webjars.WebJarAssetLocator and io.github.classgraph.ClassGraph
+
+2022-05-25 14:00:19,866 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field courseRepository in CourseService required a bean of type 'CourseRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'CourseRepository' in your configuration.
+
+2022-05-25 16:46:28,738 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] Starting CourseServiceApplication using Java 1.8.0_20 on Minals-MacBook-Pro-2.local with PID 62211 (/Users/minal/LTI/upskill/course-service/target/classes started by minal in /Users/minal/LTI/upskill/course-service)
+2022-05-25 16:46:28,741 DEBUG com.lti.upskill.courseservice.CourseServiceApplication [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-25 16:46:28,744 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-05-25 16:46:35,870 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration
+┌─────┐
+|  org.springdoc.ui.SwaggerConfig (field private org.springdoc.ui.SwaggerIndexTransformer org.springdoc.ui.SwaggerConfig.swaggerIndexTransformer)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2022-05-25 16:47:37,784 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] Starting CourseServiceApplication using Java 1.8.0_20 on Minals-MacBook-Pro-2.local with PID 62234 (/Users/minal/LTI/upskill/course-service/target/classes started by minal in /Users/minal/LTI/upskill/course-service)
+2022-05-25 16:47:37,787 DEBUG com.lti.upskill.courseservice.CourseServiceApplication [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-25 16:47:37,790 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-05-25 16:47:45,249 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.webjars.WebJarAssetLocator.scanForWebJars(WebJarAssetLocator.java:183)
+
+The following method did not exist:
+
+    io.github.classgraph.ClassGraph.acceptPaths([Ljava/lang/String;)Lio/github/classgraph/ClassGraph;
+
+The calling method's class, org.webjars.WebJarAssetLocator, was loaded from the following location:
+
+    jar:file:/Users/minal/.m2/repository/org/webjars/webjars-locator-core/0.50/webjars-locator-core-0.50.jar!/org/webjars/WebJarAssetLocator.class
+
+The called method's class, io.github.classgraph.ClassGraph, is available from the following locations:
+
+    jar:file:/Users/minal/.m2/repository/io/github/classgraph/classgraph/4.8.44/classgraph-4.8.44.jar!/io/github/classgraph/ClassGraph.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    io.github.classgraph.ClassGraph: file:/Users/minal/.m2/repository/io/github/classgraph/classgraph/4.8.44/classgraph-4.8.44.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.webjars.WebJarAssetLocator and io.github.classgraph.ClassGraph
+
+2022-05-25 17:09:18,648 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] Starting CourseServiceApplication using Java 1.8.0_20 on Minals-MacBook-Pro-2.local with PID 62650 (/Users/minal/LTI/upskill/course-service/target/classes started by minal in /Users/minal/LTI/upskill/course-service)
+2022-05-25 17:09:18,652 DEBUG com.lti.upskill.courseservice.CourseServiceApplication [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-25 17:09:18,656 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-05-25 17:09:26,965 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.webjars.WebJarAssetLocator.scanForWebJars(WebJarAssetLocator.java:183)
+
+The following method did not exist:
+
+    io.github.classgraph.ClassGraph.acceptPaths([Ljava/lang/String;)Lio/github/classgraph/ClassGraph;
+
+The calling method's class, org.webjars.WebJarAssetLocator, was loaded from the following location:
+
+    jar:file:/Users/minal/.m2/repository/org/webjars/webjars-locator-core/0.50/webjars-locator-core-0.50.jar!/org/webjars/WebJarAssetLocator.class
+
+The called method's class, io.github.classgraph.ClassGraph, is available from the following locations:
+
+    jar:file:/Users/minal/.m2/repository/io/github/classgraph/classgraph/4.8.44/classgraph-4.8.44.jar!/io/github/classgraph/ClassGraph.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    io.github.classgraph.ClassGraph: file:/Users/minal/.m2/repository/io/github/classgraph/classgraph/4.8.44/classgraph-4.8.44.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.webjars.WebJarAssetLocator and io.github.classgraph.ClassGraph
+
+2022-05-25 19:13:00,435 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] Starting CourseServiceApplication using Java 1.8.0_20 on Minals-MacBook-Pro-2.local with PID 64058 (/Users/minal/LTI/upskill/course-service/target/classes started by minal in /Users/minal/LTI/upskill/course-service)
+2022-05-25 19:13:00,441 DEBUG com.lti.upskill.courseservice.CourseServiceApplication [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-25 19:13:00,444 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-05-25 19:13:08,609 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.webjars.WebJarAssetLocator.scanForWebJars(WebJarAssetLocator.java:183)
+
+The following method did not exist:
+
+    io.github.classgraph.ClassGraph.acceptPaths([Ljava/lang/String;)Lio/github/classgraph/ClassGraph;
+
+The calling method's class, org.webjars.WebJarAssetLocator, was loaded from the following location:
+
+    jar:file:/Users/minal/.m2/repository/org/webjars/webjars-locator-core/0.50/webjars-locator-core-0.50.jar!/org/webjars/WebJarAssetLocator.class
+
+The called method's class, io.github.classgraph.ClassGraph, is available from the following locations:
+
+    jar:file:/Users/minal/.m2/repository/io/github/classgraph/classgraph/4.8.44/classgraph-4.8.44.jar!/io/github/classgraph/ClassGraph.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    io.github.classgraph.ClassGraph: file:/Users/minal/.m2/repository/io/github/classgraph/classgraph/4.8.44/classgraph-4.8.44.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.webjars.WebJarAssetLocator and io.github.classgraph.ClassGraph
+
+2022-05-25 19:39:11,185 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] Starting CourseServiceApplication using Java 1.8.0_20 on Minals-MacBook-Pro-2.local with PID 64568 (/Users/minal/LTI/upskill/course-service/target/classes started by minal in /Users/minal/LTI/upskill/course-service)
+2022-05-25 19:39:11,191 DEBUG com.lti.upskill.courseservice.CourseServiceApplication [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-25 19:39:11,194 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-05-25 19:39:19,157 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.webjars.WebJarAssetLocator.scanForWebJars(WebJarAssetLocator.java:183)
+
+The following method did not exist:
+
+    io.github.classgraph.ClassGraph.acceptPaths([Ljava/lang/String;)Lio/github/classgraph/ClassGraph;
+
+The calling method's class, org.webjars.WebJarAssetLocator, was loaded from the following location:
+
+    jar:file:/Users/minal/.m2/repository/org/webjars/webjars-locator-core/0.50/webjars-locator-core-0.50.jar!/org/webjars/WebJarAssetLocator.class
+
+The called method's class, io.github.classgraph.ClassGraph, is available from the following locations:
+
+    jar:file:/Users/minal/.m2/repository/io/github/classgraph/classgraph/4.8.44/classgraph-4.8.44.jar!/io/github/classgraph/ClassGraph.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    io.github.classgraph.ClassGraph: file:/Users/minal/.m2/repository/io/github/classgraph/classgraph/4.8.44/classgraph-4.8.44.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.webjars.WebJarAssetLocator and io.github.classgraph.ClassGraph
+
+2022-05-25 19:47:03,263 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] Starting CourseServiceApplication using Java 1.8.0_20 on Minals-MacBook-Pro-2.local with PID 64739 (/Users/minal/LTI/upskill/course-service/target/classes started by minal in /Users/minal/LTI/upskill/course-service)
+2022-05-25 19:47:03,274 DEBUG com.lti.upskill.courseservice.CourseServiceApplication [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-25 19:47:03,278 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-05-25 19:47:10,834 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.webjars.WebJarAssetLocator.scanForWebJars(WebJarAssetLocator.java:183)
+
+The following method did not exist:
+
+    io.github.classgraph.ClassGraph.acceptPaths([Ljava/lang/String;)Lio/github/classgraph/ClassGraph;
+
+The calling method's class, org.webjars.WebJarAssetLocator, was loaded from the following location:
+
+    jar:file:/Users/minal/.m2/repository/org/webjars/webjars-locator-core/0.50/webjars-locator-core-0.50.jar!/org/webjars/WebJarAssetLocator.class
+
+The called method's class, io.github.classgraph.ClassGraph, is available from the following locations:
+
+    jar:file:/Users/minal/.m2/repository/io/github/classgraph/classgraph/4.8.44/classgraph-4.8.44.jar!/io/github/classgraph/ClassGraph.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    io.github.classgraph.ClassGraph: file:/Users/minal/.m2/repository/io/github/classgraph/classgraph/4.8.44/classgraph-4.8.44.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.webjars.WebJarAssetLocator and io.github.classgraph.ClassGraph
+
+2022-05-25 19:52:52,174 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] Starting CourseServiceApplication using Java 1.8.0_20 on Minals-MacBook-Pro-2.local with PID 64874 (/Users/minal/LTI/upskill/course-service/target/classes started by minal in /Users/minal/LTI/upskill/course-service)
+2022-05-25 19:52:52,186 DEBUG com.lti.upskill.courseservice.CourseServiceApplication [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-25 19:52:52,196 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-05-25 19:53:02,570 INFO com.lti.upskill.courseservice.CourseServiceApplication [main] Started CourseServiceApplication in 11.408 seconds (JVM running for 12.502)
